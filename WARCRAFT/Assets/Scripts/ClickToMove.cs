@@ -9,10 +9,14 @@ public class ClickToMove : MonoBehaviour
     public CharacterController controller;
     private Vector3 position;
 
+    public Animation run;
+   // public AnimationClip idle;
+
     // Start is called before the first frame update
     void Start()
     {
         position = transform.position;
+        run = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -40,14 +44,26 @@ public class ClickToMove : MonoBehaviour
 
     void moveToPosition()
     {
-        if (Vector3.Distance(transform.position, position) > 1)
+        // Game Object in moving
+        if (Vector3.Distance(transform.position, position) > 2)
         {
             Quaternion newRotation = Quaternion.LookRotation(position - transform.position);
-
+           
             newRotation.x = 0f;
             newRotation.z = 0f;
             transform.rotation = Quaternion.Slerp(transform.rotation, newRotation, Time.deltaTime * 10);
             controller.SimpleMove(transform.forward);
+
+         //   GetComponent<Animation>().CrossFade("run");
+          //  run.Play("Run");
+
+            run.CrossFade("Run");
+            run.Play();
+        }
+        /// Gabe object is note moving
+        else
+        {
+          //  GetComponent<Animation>().CrossFade("idle");
         }
     }
 }

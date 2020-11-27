@@ -63,7 +63,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\Gravity.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerCamera.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerInputController.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerMachine.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerMachineDebug.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
+    <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\AnimatorParentMove.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\CameraController.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\GUIControlsFREE.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\IKHands.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\SetupInputLayersFREE.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\WarriorAnimatorEvents.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\WarriorControllerFREE.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\WarriorInputControllerFREE.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\WarriorMovementControllerFREE.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Warrior\Code\WarriorTimingFREE.cs" />
     <Compile Include="Assets\Scripts\ClickToMove.cs" />
+    <Compile Include="Assets\Scripts\KnightController.cs" />
+    <None Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\README.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Moje/Programowanie/AGiera/WARCRAFT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
