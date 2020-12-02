@@ -90,6 +90,7 @@
     <Compile Include="Assets\ExplosiveLLC\Warrior\Code\WarriorTimingFREE.cs" />
     <Compile Include="Assets\Scripts\ClickToMove.cs" />
     <Compile Include="Assets\Scripts\KnightController.cs" />
+    <Compile Include="Assets\Scripts\SphereScript.cs" />
     <None Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\README.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Moje/Programowanie/AGiera/WARCRAFT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

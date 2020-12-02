@@ -34,12 +34,12 @@ public class KnightController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W))
             {
-                if (anim.GetBool("attacking") == true)
+                if (anim.GetBool("attack") == true)
                 {
                     return;
 
                 }
-                else if (anim.GetBool("attacking") == false)
+                else if (anim.GetBool("attack") == false)
                 {
 
                     anim.SetBool("running", true);
@@ -91,10 +91,10 @@ public class KnightController : MonoBehaviour
     IEnumerator AttackRoutine()
     {
     
-        anim.SetBool("attacking", true);
+        anim.SetBool("attack", true);
         anim.SetInteger("condition", 2);
         yield return new WaitForSeconds(1);
         anim.SetInteger("condition", 0);
-        anim.SetBool("attacking", false);
+        anim.SetBool("attack", false);
     }
 }
